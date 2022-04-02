@@ -33,7 +33,7 @@ st.sidebar.info(
 
 
 st.title('Wheat Rust Identification')
-model = load_tf_model(model_path)
+#model = load_tf_model(model_path)
 st.write("Upload an image.")
 uploaded_file = st.file_uploader("")
 
